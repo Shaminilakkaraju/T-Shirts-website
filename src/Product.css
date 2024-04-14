@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(222, 163, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: x-large;
+}
+
+.product-container {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.product-image { 
+  padding: 50px 50px 50px 50px ;
+  flex: 1;
+}
+
+.product-image img {
+  width: 500px;
+  height:700px;
+  object-fit:fill;
+}
+
+.product-details {
+  flex: 1;
+  padding: 50px;
+  font-size: xx-large;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: xx-large;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin-bottom: 30px;
+  font-size: x-large;
+}
+
+.size-options,
+.color-options,.quantity-options{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: xx-large;
+}
+
+.size-options label,
+.color-options label,.quantity-options label{
+  margin-right: 15px;
+  font-size: xx-large;
+}
+.size-options input {
+  width: 80px;
+  height: 150px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.quantity-options input {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.color-buttons {
+  display: flex;
+}
+
+.color-btn1 {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: beige;
+}
+.color-btn2 {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: skyblue;
+}
+.color-btn3 {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: purple;
+}
+
+.color-btn.active {
+  border: 2px solid blue;
+}
+
+.buy-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-size:xx-large;
+  cursor: pointer;
+}
