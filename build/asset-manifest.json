@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wrangler-tshirt/static/css/main.ffbb01f3.css",
+    "main.js": "/wrangler-tshirt/static/js/main.553e9827.js",
+    "static/js/453.8da2b293.chunk.js": "/wrangler-tshirt/static/js/453.8da2b293.chunk.js",
+    "static/media/tshirt3.jpg": "/wrangler-tshirt/static/media/tshirt3.6e1781df470978f6a76f.jpg",
+    "static/media/tshirt1.jpg": "/wrangler-tshirt/static/media/tshirt1.cea355d0c8862855812c.jpg",
+    "static/media/tshirt2.jpg": "/wrangler-tshirt/static/media/tshirt2.3b8eb0f41fcff75ce504.jpg",
+    "index.html": "/wrangler-tshirt/index.html",
+    "main.ffbb01f3.css.map": "/wrangler-tshirt/static/css/main.ffbb01f3.css.map",
+    "main.553e9827.js.map": "/wrangler-tshirt/static/js/main.553e9827.js.map",
+    "453.8da2b293.chunk.js.map": "/wrangler-tshirt/static/js/453.8da2b293.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffbb01f3.css",
+    "static/js/main.553e9827.js"
+  ]
+}
